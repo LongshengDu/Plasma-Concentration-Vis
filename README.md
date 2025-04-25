@@ -55,18 +55,22 @@ The tool includes adjustable parameters:
 | Dose Interval      | Time between doses                         |
 | Skip Dose Period   | Skip after consecutive dosage days         |
 
-## Sample Formulations
+## Reference Samples
 
-| Type  |  Dose (mg)  | Cmax (ng/ml) |  Tmax (h)  | T_half (h) |          Dosing          |
-|:-----:|:-----------:|:------------:|:----------:|:----------:|:------------------------:|
-| IR    |     75      |      80      |    1.5     |     5      |        2/d, q.8h         |
-| SR    |     100     |      85      |     3      |     10     |           1/d            |
-| XL    |     150     |     120      |     5      |     21     | 1/d, skip every 3rd day  |
+| Type  |  Dose $(mg)$  | $\mathbf{C_{max}} (ng/ml)$ |  $\mathbf{T_{max}} (h)$  | $\mathbf{T_{1/2}} (h)$ |          Dosing          |
+|:-----:|:-------------:|:--------------------------:|:------------------------:|:----------------------:|:------------------------:|
+| IR    |     75        |      80                    |    1.5                   |     5                  |        2/d, q.8h         |
+| SR    |     100       |      85                    |     3                    |     10                 |           1/d            |
+| XL    |     150       |     120                    |     5                    |     21                 | 1/d, skip every 3rd day  |
 
 ## Sample Plot
+
+Medication specification: $C_{max} = 60ng/ml, T_{max}=2h, T_{1/2}=16h$
+
+Modeling parameters: 0.75 metabolic factor (slower metabolism), 14 total simulated days, taken twice daily, first dose each of day is at 9 AM, with an 8-hour interval between doses. After 6 consecutive days of medication, skip one day
 
 ![Plasma Concentration Plot](example_plot.png)
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)
