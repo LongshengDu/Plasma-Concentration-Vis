@@ -58,9 +58,13 @@ The tool includes adjustable parameters:
 
 | Type  |  Dose (mg)  | Cmax (ng/ml) |  Tmax (h)  | T_half (h) |          Dosing          |
 |:-----:|:-----------:|:------------:|:----------:|:----------:|:------------------------:|
-| IR    |     75      |      80      |    1.5     |     5      |           2/d            |
+| IR    |     75      |      80      |    1.5     |     5      |        2/d, q.8h         |
 | SR    |     100     |      85      |     3      |     10     |           1/d            |
 | XL    |     150     |     120      |     5      |     21     | 1/d, skip every 3rd day  |
+
+## Sample Plot
+
+[![Plasma Concentration Plot](example_plot.png)]
 
 ## License
 
