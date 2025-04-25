@@ -17,6 +17,13 @@ This interactive tool visualizes plasma concentration profiles of medications ov
 * **Metabolic Adjustment**: Account for individual variations in drug metabolism
 * **Flexible Dosing Patterns**: Model skip-day dosing, variable intervals, and custom timing
 
+## Usage
+
+* **Google Colab**: Most convenient, click the "Open in Colab" badge above, or [Run in Google Colab](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
+* **Jupyter.org**: These are [Static Webpages](https://jupyter.org/try) can run locally and use browser's local storage, use `File -> Open from URL...` for [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) or upload local file
+* **JupyterLab Desktop**: Download and install [JupyterLab Desktop App](https://github.com/jupyterlab/jupyterlab-desktop/releases), download [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) and open locally 
+* **VScode**: Install [VSCode Jupyter](https://marketplace.visualstudio.com/items/?itemName=ms-toolsai.jupyter) extension pack and local Python environment
+
 ## Pharmacokinetic Principles
 
 The tool implements the Bateman function to model drug absorption and elimination:
@@ -29,13 +36,6 @@ Where:
 * $K_e$ = Elimination rate constant (related to $T_{1/2}$)
 * $K_a$ = Absorption rate constant
 * $t$ = Time since dose administration
-
-## Usage
-
-* **Google Colab**: Most convenient, click the "Open in Colab" badge above, or [Run in Google Colab](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
-* **Jupyter.org**: These are [Static Webpages](https://jupyter.org/try) can run locally and use browser's local storage, use `File -> Open from URL...` for [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) or upload local file
-* **JupyterLab Desktop**: Download and install [JupyterLab Desktop App](https://github.com/jupyterlab/jupyterlab-desktop/releases), download [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) and open locally 
-* **VScode**: Install [VSCode Jupyter](https://marketplace.visualstudio.com/items/?itemName=ms-toolsai.jupyter) extension pack and local Python environment
 
 ## Interactive Parameters
 

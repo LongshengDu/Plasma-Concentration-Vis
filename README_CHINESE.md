@@ -17,6 +17,13 @@
 * **代谢调整**：考虑个体差异对药物代谢的影响
 * **灵活的给药模式**：支持跳日给药、可变给药间隔和自定义给药时间
 
+## 使用方法
+
+* **Google Colab**：最便捷的方式，点击上方的 “Open In Colab” 徽章，或 [使用Google Colab打开](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
+* **Jupyter.org**：通过 [静态网页](https://jupyter.org/try) 运行，使用浏览器的本地存储。通过 `File -> Open from URL...` 打开 [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) 或上传本地文件
+* **JupyterLab Desktop**：下载并安装 [JupyterLab 桌面应用](https://github.com/jupyterlab/jupyterlab-desktop/releases)，下载 [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) 并在本地打开
+* **VScode**：安装 [VSCode Jupyter](https://marketplace.visualstudio.com/items/?itemName=ms-toolsai.jupyter) 插件和本地 Python 环境
+
 ## 药代动力学原理
 
 该工具基于 Bateman 函数建模药物的吸收和消除过程：
@@ -29,13 +36,6 @@ $$C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})$$
 * $K_e$ = 消除速率常数（与 $T_{1/2}$ 相关）
 * $K_a$ = 吸收速率常数
 * $t$ = 给药后的时间
-
-## 使用方法
-
-* **Google Colab**：最便捷的方式，点击上方的 “Open In Colab” 徽章，或 [使用Google Colab打开](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
-* **Jupyter.org**：通过 [静态网页](https://jupyter.org/try) 运行，使用浏览器的本地存储。通过 `File -> Open from URL...` 打开 [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) 或上传本地文件
-* **JupyterLab Desktop**：下载并安装 [JupyterLab 桌面应用](https://github.com/jupyterlab/jupyterlab-desktop/releases)，下载 [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) 并在本地打开
-* **VScode**：安装 [VSCode Jupyter](https://marketplace.visualstudio.com/items/?itemName=ms-toolsai.jupyter) 插件和本地 Python 环境
 
 ## 交互参数
 
