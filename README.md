@@ -2,6 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
 
+[中文版本](README_CHINESE.md)
+
 ## Overview
 
 This interactive tool visualizes plasma concentration profiles of medications over time using pharmacokinetic principles. It helps understand how different dosing regimens and drug formulations affect medication concentration in the bloodstream, which is crucial for optimizing therapeutic outcomes while minimizing adverse effects.
@@ -11,7 +13,7 @@ This interactive tool visualizes plasma concentration profiles of medications ov
 * **Interactive Visualization**: Adjust parameters like $T_{max}$, $C_{max}$, $T_{1/2}$, and dosing schedules in real-time
 * **Bateman Function Implementation**: Mathematical modeling of drug absorption and elimination
 * **Multiple Dosing Regimens**: Simulate various dosing frequencies and patterns
-* **Advanced Metrics**: Calculate Area Under the Curve (AUC), average concentrations, and more
+* **Advanced Metrics**: Calculate medication exposure i.e. Area Under the Curve (AUC), average concentrations, and more
 * **Metabolic Adjustment**: Account for individual variations in drug metabolism
 * **Flexible Dosing Patterns**: Model skip-day dosing, variable intervals, and custom timing
 
@@ -32,25 +34,26 @@ Where:
 
 * **Google Colab**: Most convenient, click the "Open in Colab" badge above, or [Run in Google Colab](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
 * **Jupyter.org**: These are [Static Webpages](https://jupyter.org/try) can run locally and use browser's local storage, use `File -> Open from URL...` for [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) or upload local file
-* **JupyterLab Desktop** Download and install [JupyterLab Desktop App](https://github.com/jupyterlab/jupyterlab-desktop/releases), download [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) and open locally 
+* **JupyterLab Desktop**: Download and install [JupyterLab Desktop App](https://github.com/jupyterlab/jupyterlab-desktop/releases), download [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) and open locally 
+* **VScode**: Install [VSCode Jupyter](https://marketplace.visualstudio.com/items/?itemName=ms-toolsai.jupyter) extension pack and local Python environment
 
 ## Interactive Parameters
 
 The tool includes adjustable parameters:
 
-| Parameter          | Description                           |
-|:------------------:|:-------------------------------------:|
-| Save Plot          | Option to save visualization          |
-| Y-axis Limit       | Set upper limit for concentration     |
-| T_max              | Time to maximum concentration         |
-| C_max              | Maximum concentration                 |
-| T_half             | Elimination half-life                 |
-| Metabolic Factor   | Individual metabolism adjustment      |
-| Total Days         | Duration of simulation                |
-| Doses per Day      | Frequency of administration           |
-| Initial Dose Time  | First dose timing                     |
-| Dose Interval      | Time between doses                    |
-| Skip Dose Period   | Pattern for skipping doses            |
+| Parameter          | Description                                |
+|:------------------:|:------------------------------------------:|
+| Save Plot          | Option to save visualization               |
+| Y-axis Limit       | Set upper limit for concentration          |
+| $T_{max}$          | Time to maximum concentration              |
+| $C_{max}$          | Maximum concentration                      |
+| $T_{1/2}$          | Elimination half-life                      |
+| Metabolic Factor   | Individual metabolism adjustment           |
+| Total Days         | Duration of simulation                     |
+| Doses per Day      | Frequency of administration                |
+| Initial Dose Time  | First dose timing each day                 |
+| Dose Interval      | Time between doses                         |
+| Skip Dose Period   | Skip after consecutive dosage days         |
 
 ## Sample Formulations
 

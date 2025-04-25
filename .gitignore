@@ -1,2 +1,7 @@
+# Ignore
 .jupyter/
 .ipynb_checkpoints/
+*.png
+
+# Include 
+!example_plot.png
