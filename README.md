@@ -61,3 +61,7 @@ The tool includes adjustable parameters:
 | IR    |     75      |      80      |    1.5     |     5      |           2/d            |
 | SR    |     100     |      85      |     3      |     10     |           1/d            |
 | XL    |     150     |     120      |     5      |     21     | 1/d, skip every 3rd day  |
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
