@@ -8,7 +8,7 @@ This interactive tool visualizes plasma concentration profiles of medications ov
 
 ## Features
 
-* **Interactive Visualization**: Adjust parameters like T_max, C_max, T_half, and dosing schedules in real-time
+* **Interactive Visualization**: Adjust parameters like $T_{max}$, $C_{max}$, $T_{1/2}$, and dosing schedules in real-time
 * **Bateman Function Implementation**: Mathematical modeling of drug absorption and elimination
 * **Multiple Dosing Regimens**: Simulate various dosing frequencies and patterns
 * **Advanced Metrics**: Calculate Area Under the Curve (AUC), average concentrations, and more
@@ -30,11 +30,11 @@ Where:
 
 ## Usage
 
-1. **Google Colab**: Most convenient, click the "Open in Colab" badge above, or [Run in Google Colab](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
+* **Google Colab**: Most convenient, click the "Open in Colab" badge above, or [Run in Google Colab](https://colab.research.google.com/github/LongshengDu/plasma-concentration-vis/blob/master/main.ipynb)
 
-2. **Jupyter.org**: These are [Static Webpages](https://jupyter.org/try) can run locally and use browser's local storage, use `File -> Open from URL...` for [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) or upload local file
+* **Jupyter.org**: These are [Static Webpages](https://jupyter.org/try) can run locally and use browser's local storage, use `File -> Open from URL...` for [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) or upload local file
 
-3. **JupyterLab Desktop** Download and install [JupyterLab Desktop App](https://github.com/jupyterlab/jupyterlab-desktop/releases), download [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) and open locally 
+* **JupyterLab Desktop** Download and install [JupyterLab Desktop App](https://github.com/jupyterlab/jupyterlab-desktop/releases), download [main.ipynb](https://raw.githubusercontent.com/LongshengDu/plasma-concentration-vis/refs/heads/master/main.ipynb) and open locally 
 
 ## Interactive Parameters
 
