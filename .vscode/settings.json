@@ -1,0 +1,12 @@
+{
+  // To Simulate Jupyter Notebook Theme in VSCode 
+  "workbench.colorTheme": "Default Light Modern",
+  "workbench.colorCustomizations": {
+    "notebook.focusedEditorBorder": "#fec26f",
+    "notebook.focusedRowBorder": "#ff0",
+    "notebook.focusedCellBorder": "#fec26f",
+    "notebook.cellEditorBackground": "#F4F6F8",
+    "notebook.cellToolbarSeparator": "#eee",
+    "notebook.outputContainerBackgroundColor": "#F4F6F8"
+  }
+}
