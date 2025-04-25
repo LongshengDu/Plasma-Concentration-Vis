@@ -8,12 +8,12 @@ This interactive tool visualizes plasma concentration profiles of medications ov
 
 ## Features
 
-- **Interactive Visualization**: Adjust parameters like T_max, C_max, T_half, and dosing schedules in real-time
-- **Bateman Function Implementation**: Mathematical modeling of drug absorption and elimination
-- **Multiple Dosing Regimens**: Simulate various dosing frequencies and patterns
-- **Advanced Metrics**: Calculate Area Under the Curve (AUC), average concentrations, and more
-- **Metabolic Adjustment**: Account for individual variations in drug metabolism
-- **Flexible Dosing Patterns**: Model skip-day dosing, variable intervals, and custom timing
+* **Interactive Visualization**: Adjust parameters like T_max, C_max, T_half, and dosing schedules in real-time
+* **Bateman Function Implementation**: Mathematical modeling of drug absorption and elimination
+* **Multiple Dosing Regimens**: Simulate various dosing frequencies and patterns
+* **Advanced Metrics**: Calculate Area Under the Curve (AUC), average concentrations, and more
+* **Metabolic Adjustment**: Account for individual variations in drug metabolism
+* **Flexible Dosing Patterns**: Model skip-day dosing, variable intervals, and custom timing
 
 ## Pharmacokinetic Principles
 
@@ -22,11 +22,11 @@ The tool implements the Bateman function to model drug absorption and eliminatio
 $$C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})$$
 
 Where:
-- $C(t)$ = Plasma concentration at time $t$
-- $A$ = Coefficient based on dose and distribution volume
-- $K_e$ = Elimination rate constant (related to $T_{1/2}$)
-- $K_a$ = Absorption rate constant
-- $t$ = Time since dose administration
+* $C(t)$ = Plasma concentration at time $t$
+* $A$ = Coefficient based on dose and distribution volume
+* $K_e$ = Elimination rate constant (related to $T_{1/2}$)
+* $K_a$ = Absorption rate constant
+* $t$ = Time since dose administration
 
 ## Usage
 
@@ -64,7 +64,7 @@ The tool includes adjustable parameters:
 
 ## Sample Plot
 
-[![Plasma Concentration Plot](example_plot.png)]
+![Plasma Concentration Plot](example_plot.png)
 
 ## License
 
