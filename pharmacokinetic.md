@@ -85,7 +85,18 @@ This implementation extends the basic Bateman model by incorporating several adv
 
 ## Collected Sample Data
 
-**Table 1: Sample B Simulation Result**
+**Table 1: Sample A Simulation Result**
+
+| Metabolic Factor | Adj. $\mathbf{C_{max}}$ (ng/ml) | Adj. $\mathbf{T_{max}}$ (h) | Adj. $\mathbf{T_{1/2}}$ (h) | EoD Conc. (ng/ml)|  AUC/d (ug*h/ml)  |
+|:----------------:|:-------------------------------:|:---------------------------:|:---------------------------:|:----------------:|:-----------------:|
+|     1.00         |            2000                 |            1.00             |            5.00             |        522       |     12787         |
+|     0.75         |            2309                 |            1.33             |            6.67             |        883       |     16994         |
+|     1.25         |            1789                 |            0.80             |            3.00             |        319       |     10005         |
+1. Estimated properties of 100mg caffeine from coffee s at metabolic factor = 1
+2. Simulation of 1 day, one light roasted coffee drink (12g beans) at 13:00
+3. EoD Conc. represent concentration at end of day
+
+**Table 2: Sample B Simulation Result**
 
 |   Dosing   | $\mathbf{C_{max}}$ (ng/ml) | $\mathbf{T_{max}}$ (h) | $\mathbf{T_{1/2}}$ (h) | Max (ng/ml) | EoD Avg. (ng/ml) | Avg. (ng/ml)  | AUC/d (ng*h/ml) |
 |:----------:|:--------------------------:|:----------------------:|:----------------------:|:-----------:|:----------------:|:-------------:|:---------------:|
@@ -100,5 +111,5 @@ This implementation extends the basic Bateman model by incorporating several adv
 |    2/3d    |            120             |            5           |            21          |    261      |        145       |      155      |     3725        |
 |    3/4d    |            120             |            5           |            21          |    295      |        184       |      190      |     4551        |
 1. Metabolic factor = 0.75
-2. Data represent simulation over 14 days
+2. Simulation over 14 days, daily initial dose at 08:00
 3. EoD Avg. represent average concentration at end of each day
