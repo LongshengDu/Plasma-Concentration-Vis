@@ -37,6 +37,8 @@ $$C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})$$
 * $K_a$ = 吸收速率常数
 * $t$ = 给药后的时间
 
+**具体模型构建： [Markdown](pharmacokinetic.md) / [PDF](pharmacokinetic.pdf)**
+
 ## 交互参数
 
 该工具提供以下可调参数：

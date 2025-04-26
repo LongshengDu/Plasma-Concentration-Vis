@@ -37,6 +37,8 @@ Where:
 * $K_a$ = Absorption rate constant
 * $t$ = Time since dose administration
 
+**Detailed Model Formulation: [Markdown](pharmacokinetic.md) / [PDF](pharmacokinetic.pdf)**
+
 ## Interactive Parameters
 
 The tool includes adjustable parameters:
