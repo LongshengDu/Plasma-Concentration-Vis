@@ -87,7 +87,7 @@ This implementation extends the basic Bateman model by incorporating several adv
 
 **Table 1: Sample A Simulation Result**
 
-| Metabolic Factor | Adj. $\mathbf{C_{max}}$ (ng/ml) | Adj. $\mathbf{T_{max}}$ (h) | Adj. $\mathbf{T_{1/2}}$ (h) | EoD Conc. (ng/ml)|  AUC/d (ug*h/ml)  |
+| Metabolic Factor | Adj. $\mathbf{C_{max}}$ (ng/ml) | Adj. $\mathbf{T_{max}}$ (h) | Adj. $\mathbf{T_{1/2}}$ (h) | EoD Conc. (ng/ml)|  AUC/d (ng*h/ml)  |
 |:----------------:|:-------------------------------:|:---------------------------:|:---------------------------:|:----------------:|:-----------------:|
 |     1.00         |            2000                 |            1.00             |            5.00             |        522       |     12787         |
 |     0.75         |            2309                 |            1.33             |            6.67             |        883       |     16994         |
