@@ -18,7 +18,9 @@ Different drug formulations (immediate release, sustained release, extended rele
 
 The Bateman function provides a mathematical model for describing drug concentration in plasma over time following oral administration. This first-order kinetic model balances two competing processes, absorption phase and elimination phase:
 
-$$C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})$$
+$$
+C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})
+$$
 
 Where:
 * $C(t)$ = Plasma concentration at time $t$
@@ -39,26 +41,40 @@ To apply the Bateman function in practice, we need to determine the function par
 
 1. **Elimination rate constant** ($K_e$): Calculated from ${T_{1/2}}$, since drug elimination follows exponential decay model:
 
-   $$C(t) = C_0 \cdot e^{-K_e \cdot t}$$
+   $$
+   C(t) = C_0 \cdot e^{-K_e \cdot t}
+   $$
 
    At $t = T_{1/2}$, $C(t) = \frac{C_0}{2}$, leading to:
 
-   $$\frac{C_0}{2} = C_0 \cdot e^{-K_e \cdot T_{1/2}}$$
+   $$
+   \frac{C_0}{2} = C_0 \cdot e^{-K_e \cdot T_{1/2}}
+   $$
 
-   $$K_e = \frac{\ln(2)}{T_{1/2}}$$
+   $$
+   K_e = \frac{\ln(2)}{T_{1/2}}
+   $$
 
 2. **Absorption rate constant** ($K_a$): Calculated from $T_{max}$ and $K_e$, since at peak concentration ($t = T_{max}$), the derivative of the concentration function is zero:
 
-   $$\frac{dC(t)}{dt}\bigg|_{t=T_{max}} = 0$$
+   $$
+   \frac{dC(t)}{dt}\bigg|_{t=T_{max}} = 0
+   $$
 
-   $$\frac{K_a e^{-K_a T_{max}} - K_e e^{-K_e T_{max}}}{e^{-K_e T_{max}} - e^{-K_a T_{max}}} = 0$$
+   $$
+   \frac{K_a e^{-K_a T_{max}} - K_e e^{-K_e T_{max}}}{e^{-K_e T_{max}} - e^{-K_a T_{max}}} = 0
+   $$
 
    Solving for $K_a$:
 
-   $$\frac{\ln(K_a) - \ln(K_e)}{K_a - K_e} = T_{max}$$
+   $$
+   \frac{\ln(K_a) - \ln(K_e)}{K_a - K_e} = T_{max}
+   $$
 
 3. **Coefficient** ($A$): Once $K_a$ and $K_e$ are known, $A$ is determined using $C_{max}$ and $T_{max}$:
-   $$A = \frac{C_{max}}{e^{-K_e T_{max}} - e^{-K_a T_{max}}}$$
+   $$
+   A = \frac{C_{max}}{e^{-K_e T_{max}} - e^{-K_a T_{max}}}
+   $$
 
 ## Extended Implementation with Metabolic Factor
 

@@ -28,7 +28,9 @@ This interactive tool visualizes plasma concentration profiles of medications ov
 
 The tool implements the Bateman function to model drug absorption and elimination:
 
-$$C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})$$
+$$
+C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})
+$$
 
 Where:
 * $C(t)$ = Plasma concentration at time $t$

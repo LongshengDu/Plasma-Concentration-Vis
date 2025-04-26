@@ -28,7 +28,9 @@
 
 该工具基于 Bateman 函数建模药物的吸收和消除过程：
 
-$$C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})$$
+$$
+C(t) = A \cdot (e^{-K_e \cdot t} - e^{-K_a \cdot t})
+$$
 
 其中：
 * $C(t)$ = 时间 $t$ 时的血浆浓度
