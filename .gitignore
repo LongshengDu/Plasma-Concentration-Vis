@@ -1,4 +1,5 @@
 # Ignore
+build/
 .jupyter/
 .ipynb_checkpoints/
 *.png
