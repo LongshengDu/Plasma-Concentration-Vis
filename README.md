@@ -69,7 +69,7 @@ The tool includes adjustable parameters:
 
 ## Sample Plot
 
-Medication specification: $C_{max} = 60ng/ml, T_{max}=2h, T_{1/2}=16h$
+Medication specification: $C_{max}$ = 60ng/ml, $T_{max}$ = 2h, $T_{1/2}$ = 16h
 
 Modeling parameters: 0.75 metabolic factor (slower metabolism), 14 total simulated days, taken twice daily, first dose each of day is at 9 AM, with an 8-hour interval between doses. After 6 consecutive days of medication, skip one day
 
